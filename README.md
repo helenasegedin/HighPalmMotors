@@ -10,6 +10,10 @@ A car buying website built with Node.js, Express, and Prisma.
 - Users receive confirmation emails for their appointments.
 - Site owner receives notifications about new requests.
 
+## Project Management
+
+https://www.pivotaltracker.com/n/projects/2684194
+
 ## Getting Started
 
 ### Prerequisites
@@ -36,15 +40,6 @@ Before you begin, ensure you have the following installed:
     npm install
     ```
 
-### Database Setup
-
-- The app uses Prisma with SQLite. Set up the database:
-
-    ```
-    npx prisma migrate dev
-    npx prisma generate
-    ```
-
 ### Environment Variables
 
 - Create a `.env` file in the root directory with the following variables:
@@ -52,6 +47,15 @@ Before you begin, ensure you have the following installed:
     ```
     PORT=3000
     Database_URL="file:./dev.db"
+    ```
+
+### Database Setup
+
+- The app uses Prisma with SQLite. Set up the database:
+
+    ```
+    npx prisma migrate dev
+    npx prisma generate
     ```
 
 ## Usage
